@@ -1,6 +1,7 @@
 window.onbeforeunload = function(){ window.scrollTo(0,0); }
 document.getElementById("nav-overview").classList.add("current");
 var vid = document.getElementById("hpvideo");
+var sld = document.getElementById("overview");
 var navbar = document.getElementById("navbar");
 var description = document.getElementById("slider-description")
 
@@ -88,7 +89,7 @@ vid.addEventListener('ended', function(){
     description.classList.remove("invisible");
     document.body.style.overflow = "visible";
 }); 
-vid.addEventListener('click', function(){
+sld.addEventListener('click', function(){
     if(!vid.paused){
         vid.pause();
         vid.classList.add("video-faded");
