@@ -36,6 +36,9 @@ body {
 .invisible {
     opacity: .0;
 }
+#main{
+    z-index: 2;
+}
 #slider-description {
     position:absolute;
     top:30%;
