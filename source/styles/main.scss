@@ -49,7 +49,7 @@ body {
     font-size: 1.1rem;
     transition: 4s opacity;
     transition: 2s background;
-    z-index: 1;
+    z-index: 2;
 }
 #slider-description:hover{
     background: rgba(0,0,0,1);
@@ -159,6 +159,7 @@ hr {
     padding: 5% 0;
     -webkit-justify-content: space-around;
     justify-content: space-around;
+    z-index: 2;
 }
 .ca-grid{
     background-color: black;
